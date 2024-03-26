@@ -1,0 +1,55 @@
+/* login styling page */
+.login p{
+    font-size: 30px;
+    padding: 35px 60px;
+    color: #2D3142;
+    background: #f6f8f9;
+}
+form{
+    background: #f6f8f9;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.loginform{
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+.loginform .loginright button{
+    background: #2D3142;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.loginform .loginleft{
+    padding: 10px 75px;
+    float: left;
+    width: 780px;
+}
+.loginform .loginright{
+    float: right;
+    background: #f6f8f9;
+    height: 180px;
+    width: 25%;
+    padding: 10px 30px;
+}
+.loginform .loginleft button{
+    background: #2D3142;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.loginform .loginleft .input{
+    width: 98%;
+    height: 38px;
+}
+.loginform .loginleft .checkbox input{
+    width: 10%;
+}
+.loginform .loginleft label{
+    font-weight: bold;
+    line-height: 1.8;
+}

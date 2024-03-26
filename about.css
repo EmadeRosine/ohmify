@@ -1,0 +1,36 @@
+/* about styling page */
+.aboutfirstdiv{
+    padding: 10px 75px;
+    color: #2D3142;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.aboutfirstdiv img{
+    width: 14rem;
+    height: 19rem;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.aboutfirstdiv a{
+    color: #eea654;
+}
+.aboutfirst-part1{
+    padding: 10px 75px;
+    color: #2D3142;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.aboutfirst-part1 a{
+    color: #eea654;
+}
+.aboutsecond-div{
+    padding: 10px 75px;
+    font-size: 20px;
+}
+.aboutthird-div{
+    padding: 10px 75px ;
+    width: 20em;
+    height: 20em;
+}

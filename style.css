@@ -1,0 +1,324 @@
+body{
+    min-height: 100vh;
+    font-family: 'Proxima Soft', sans-serif;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* navbar styling */
+.navbar{
+    background: #fff;
+    padding: 30px 80px 20px 0px;
+    height: 35px;
+}
+.navbar a{
+    color: #2D3142;
+    font-size: 20px;
+    padding: 10px 20px;
+    float: right;
+}
+.navbar a:hover{
+    color: #eea654;
+}
+.navbar .top-btn{
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    box-sizing: content-box;
+    border-radius: 7px;
+}
+.navbar .current{
+    background: #eea654;
+    border-radius: 20px;
+    color: #fff;
+}
+.navbar .current:hover{
+    color: #fff;
+}
+.navbar img{
+    width: 180px;
+    height: 55px;
+}
+.navbar .navbar-img{
+    float: left;
+    padding-left: 60px;
+    padding-top: 0px;
+}
+/*  landing page  */
+
+/* first div styling*/
+.homefirstdiv{
+    /* column-count: 2; */
+    display: flex;
+    margin: 5px 0;
+    /* column-gap: 0; */
+    background: #f9f9f9;
+    align-items: center;
+    padding: 50px 78px 85px 45px;
+}
+.homefirstdiv p{
+    line-height: 1.5;
+    font-size: 24px;
+    color: #2D3142;
+}
+.homefirstdiv .homefirst-inner{
+    justify-content: center;
+    margin: 0 50px;
+}
+.homefirstdiv .homefirst-inner h2{
+    color: #eea654;
+    font-size: 35px;
+}
+.homefirstdiv .homefirst-inner h1{
+    margin: 0px 0px 20px;
+    color: #2D3142;
+    font-size:61px;
+}
+.firstdiv .homefirst-img{
+    margin: 25px 0;
+}
+.homefirstdiv .homefirst-img img{
+    width: 36rem;
+    height: 32rem;
+}
+/* second div styling */
+.homesecond-div{
+    text-align: center;
+    color: white;
+    padding: 60px 100px 100px 100px;
+    font-size: 40px;
+    background: #2F3035;
+}
+.homesecond-div .homesecond-img{
+    padding: 50px;
+    column-count: 3;
+    align-items: center;
+}
+.homesecond-div .homesecond-img p{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.homesecond-div h3{
+    color: orange;
+    font-size: 34px;
+}
+.homesecond-div .homesecond-img img{
+    width: 200px;
+    height: 200px;
+}
+/* third div styling */
+.homethird-div{
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.homethird-div p{
+    font-size: 40px;
+    color: #2D3142;
+}
+.homethird-div .homethird-aside{
+    justify-content: center;
+    margin: 0 50px;
+}
+.homethird-div .homethird-img{
+    padding: 52px 30px;
+    text-align: center;
+    margin: 25px 0px;
+}
+.homethird-div .homethird-img img{
+    width: 36rem;
+    height: 25rem;
+}
+.homethird-div .homethird-aside a{
+    background-color: #2D3142;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.homethird-div .homethird-aside a:hover{
+    color: #2D3142;
+    background: #eea654;
+}
+/* forth div styling */
+.homeforth-div{
+    padding: 105px;
+    text-align: center;
+    color: #2D3142;
+    font-size: 20px;
+}
+.homeforth-div h1{
+    font-size: 40px;
+}
+.homeforth-div h2{
+    font-size: 30px;
+    color: #eea654;
+}
+.homeforth-div .homeforth-table{
+    padding-top: 80px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-gap: 32px;/* to create space between the grids*/
+    grid-template-columns: repeat(2, 1fr);/*places the grid to 2 colums having all equal widths*/
+    justify-items: center;
+    flex-wrap: wrap;
+}
+/* .homeforth-div .homeforth-table >*:last-child:nth-child(odd){to centralise last child irrespective of how many columns */
+    /* grid-column: 2 / -1; */
+/* } */
+.homeforth-div .homeforth-table .homeforth-image{
+    display: flex;
+    padding: 5px 30px;
+    border: 1px solid #cbccd1;
+    border-radius: 15px;
+}
+.homeforth-div .homeforth-table .homeforth-image .homeforth-aside{
+    padding: 0px 9px;
+    text-align: left;
+}
+.homeforth-div img{
+    height: 9rem;
+    width: 9rem;
+}
+.homeforth-div .homeforth-table .homeforth-image .homeforth-img{
+    text-align: left;
+    padding-top: 20px;
+}
+.homeforth-div .homeforth-table .homeforth-image .homeforth-aside h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: black;
+}
+.homeforth-div .homeforth-centerimg{
+    display: flex;
+    border: 1px solid #cbccd1;
+    border-radius: 15px;
+    text-align: left;
+    margin: 0px 270px;
+    padding: 10px 30px;
+}
+.homeforth-div .homeforth-centerimg .homeforth-aside h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: black;
+}
+.homeforth-div .homeforth-centerimg .homeforth-img{
+    text-align: left;
+    padding-top: 20px;
+}
+
+/* fifth div styling */
+.homefifth-div{
+    padding: 100px 0;
+    background: #f5f2f2;
+    text-align: center;
+}
+.homefifth-div h2{
+    font-size: 30px;
+    color: #eea654;
+    text-transform: uppercase;
+}
+.homefifth-div h1{
+    font-size: 40px;
+    color: #2D3142;
+    padding-bottom: 20px;
+}
+.homefifth-div a{
+    background-color: #2D3142;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.homefifth-div a:hover{
+    color: #2D3142;
+    background: #eea654;
+}
+/* sixth div styling */
+.homesixth-div{
+    column-count: 2;
+    display: flex;
+    background: #fff;
+    margin-bottom: 150px;
+    align-items: center;
+    padding: 10px 100px;
+}
+.homesixth-div p{
+    line-height: 1.2;
+    font-size: 20px;
+    color: grey;
+    padding: 0px 50px 0px 15px;
+}
+.homesixth-div .homesixth-aside{
+    justify-content: center;
+    padding: 30px 20px;
+}
+.homesixth-div .homesixth-aside h2{
+    color: #eea654;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.homesixth-div .homesixth-aside h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.homesixth-div .homesixth-img{
+    padding: 0px 5px;
+    text-align: center;
+    margin: 25px 0px;
+}
+.homesixth-div .homesixth-img img{
+    width: 35rem;
+    height: 40rem;
+}
+.homesixth-div a{
+    background-color: #2D3142;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.homesixth-div a:hover{
+    color: #2D3142;
+    background: #eea654;
+}
+/* footer styling */
+footer{
+    background-color: #2D3142;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: bold;
+}
+footer a{
+    float: right;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+}
+footer p{
+    float: left;
+    margin-left: 80px;
+}
+
+@media screen and (min-width:768px) {
+    body{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1024px) {
+    body{
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,85 @@
+/* reviwe styling page */
+/* first review div */
+.review-firstdiv p{
+    font-size: 30px;
+    padding: 35px 60px;
+    color: #2D3142;
+    background: #f6f8f9;
+}
+/* second review div */
+.review-seconddiv{
+    display:flex;
+    padding: 5px 80px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.review-seconddiv img{
+    width: 8em;
+    height: 10em;
+    padding-left: 15px;
+}
+.review-thirddiv img{
+    padding: 50px 90px;
+    height: 2em;
+    width: 12em;
+}
+.review-text{
+    font-size: 30px;
+    padding: 20px 60px 50px 60px;
+    color: #2D3142;
+}
+.reviewforth-div{
+   padding: 10px 90px;
+   text-align: center;
+   column-count: 2;
+} 
+.review-fifthdiv{
+    padding: 10px 90px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.review-fifthdiv  span{
+    color: #696b73;
+    padding: 0px 7px 7px 5px;
+    font-size: 30px;
+}
+.review-fifthdiv .review1{
+    background: #e7e8ec;
+    border-left: 7px solid #696b73;
+    padding: 1px 20px;
+    margin-bottom: 40px;
+}
+.review-fifthdiv .review2{
+    background: #e7e8ec;
+    border-left: 7px solid #696b73;
+    padding: 1px 20px;
+    margin-bottom: 40px;
+}
+.review-fifthdiv .review3{
+    background: #e7e8ec;
+    border-left: 7px solid #696b73;
+    padding: 1px 20px;
+    margin-bottom: 40px;
+}
+.review-fifthdiv .review4{
+    background: #e7e8ec;
+    border-left: 7px solid #696b73;
+    padding: 1px 20px;
+    margin-bottom: 40px;
+}
+/* last review div */
+.review-lastdiv{
+    padding: 10px 80px;
+    color: #2D3142;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.review-lastdiv h1{
+    font-size: 30px;
+}
+.review-lastdiv a{
+    color: #eea654;
+}
+.review-lastdiv a:hover{
+    color: #2D3142;
+}

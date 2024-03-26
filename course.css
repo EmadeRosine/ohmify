@@ -1,0 +1,77 @@
+/* courses styling page */
+.coursefirst-div .course{
+    font-size: 25px;
+    padding: 40px 65px;
+    color: #2D3142;
+    background: #f6f8f9;
+    text-transform: uppercase;
+}
+.courseform{
+    display: flex;
+    justify-content: left;
+    background: #fff;
+    padding-left: 50px;
+}
+.courseform input{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    padding: 0px 20px 0px 5px;
+}
+.courseform .submit input{
+    background: #2D3142;
+    color: #fff;
+    width: 120px;
+    text-transform: uppercase;
+}
+.courselinks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:10px;
+    padding: 30px 80px;
+}
+.courselinks a{
+    color: #2D3142;
+    text-transform: uppercase;
+    background: #ebebee;
+    padding: 10px 20px;
+}
+.courselinks a:first-child{
+    background: #eea654;
+}
+.courselinks a:hover{
+    background: #2D3142;
+    color: #fff;
+}
+.coursetable{
+    padding: 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+    /* column-gap: 20px; */
+}
+.coursetable .courseimages{
+    text-align: left;
+    padding: 0 0 30px 0 ;
+    background: #ebebee;
+}
+.coursetable .courseimages a{
+    background: #2D3142;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.coursetable .courseimages p{
+    margin:15px 0px 30px 20px
+}
+.coursetable .courseimages img{
+    width: 100%;
+    height: 12rem;
+}
+.coursetable .courseimages a:hover{
+    background: #eea654;
+    color: #fff;
+}
